@@ -12,7 +12,7 @@ import java.util.Objects;
 @Entity
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.TABLE)
     private Long Id;
     private String ProductName;
     private Integer Quantity;

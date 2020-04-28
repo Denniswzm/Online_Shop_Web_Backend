@@ -9,7 +9,7 @@ import java.util.Objects;
 @Entity
 public class User {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.TABLE)
     private Long Id;
     private String username;
     private String password;
